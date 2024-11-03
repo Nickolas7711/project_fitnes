@@ -635,4 +635,53 @@ li {
     justify-content: space-between;
     justify-items: center;
   }
+}
+@media (max-width: 400px) {
+  .about_title-item {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    justify-content: space-between;
+    justify-items: center;
+  }
+  .box_title {
+    font-size: 6.823vw;
+    width: 76vw;
+  }
+  .about_title {
+    font-size: 9.125vw;
+  }
+  .about_descriptios {
+    font-size: 5.125vw;
+    text-align: center;
+  }
+  .title_programm {
+    font-size: 6.125vw;
+  }
+  .programm {
+    flex-direction: column;
+    padding: 0vw;
+  }
+  .title_programm {
+    margin: 0px;
+  }
+  .programm_left-page {
+    margin-left: 0px;
+    width: 80vw;
+  }
+  .programm_marafon-page ul {
+    width: 72 vw;
+  }
+  .programm_marafon-page li {
+    font-size: 4.406vw;
+  }
+  .workaut_title {
+    font-size: 4.563vw;
+  }
+  .conditions_item {
+    width: 80vw;
+  }
+  .conditions_title {
+    font-size: 4.198vw;
+  }
 }/*# sourceMappingURL=style.css.map */
