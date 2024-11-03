@@ -657,9 +657,10 @@ li {
   .about_title {
     font-size: 6.125vw;
   }
-  .about_descriptios {
+  .about_description {
     font-size: 5.125vw;
     text-align: center;
+    padding: 10px;
   }
   .title_programm {
     font-size: 6.125vw;
@@ -670,16 +671,33 @@ li {
   }
   .title_programm {
     margin: 0px;
+    font-size: 9vw;
   }
   .programm_left-page {
     margin-left: 0px;
     width: 80vw;
+  }
+  .programm_marafon-page {
+    padding-left: 3vw;
   }
   .programm_marafon-page ul {
     width: 72 vw;
   }
   .programm_marafon-page li {
     font-size: 4.406vw;
+  }
+  .marafon_images {
+    width: 68vw;
+    height: 84vw;
+  }
+  .programm_button {
+    margin-top: 2vw;
+  }
+  .programm_btn {
+    width: 60vw;
+    height: 23vw;
+    font-weight: 600;
+    font-size: 6.615vw;
   }
   .workaut_title {
     font-size: 4.563vw;
@@ -698,5 +716,31 @@ li {
   }
   .conditions_external {
     width: 85vw;
+    margin-left: 10vw;
+  }
+  .conditions_list_number {
+    font-size: 9.167vw;
+    font-weight: 600;
+  }
+  .conditions_item_external {
+    gap: 12px;
+  }
+  .conditions_title_inner {
+    font-size: 5.083vw;
+  }
+  .trainer_box {
+    flex-direction: column;
+    gap: 8vw;
+  }
+  .trainer_left-page {
+    margin-left: 8vw;
+  }
+  .trainer_images_box {
+    width: 63vw;
+    text-align: center;
+    margin-left: 17vw;
+  }
+  .trainer_images {
+    width: 80%;
   }
 }/*# sourceMappingURL=style.css.map */
