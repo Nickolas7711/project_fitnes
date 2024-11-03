@@ -679,9 +679,9 @@ li {
     display: none;
   }
 
-  .result_images {
-    display: none;
-  }
+  // .result_images {
+  //   display: none;
+  // }
 
   .about_title-item {
     display: grid;
@@ -811,5 +811,49 @@ li {
 
   .trainer_images {
     width: 80%;
+  }
+
+  .box_trainer_inner { 
+
+    & ul {
+      & li {
+       font-size: 5.083vw;
+      }
+    }
+  }
+  .trainer_subtext { 
+    font-size: 5.083vw;
+  }
+
+  .review_left_box {
+    grid-template-columns: repeat(1, 1fr);
+    padding-left: 8vw;
+  }
+
+  .result_gurl {
+    flex-direction: column;
+  }
+
+  .box_reviews_inner {
+    width: 170%;
+  }
+
+  .result_images {
+    width: 50vw;
+    height: 125vw;
+    padding-left: 20vw;
+  }
+
+  .reviews_phone {
+    width: 66vw;
+  }
+
+  .box_video {
+    flex-direction: column;
+    padding: 2vw 2vw 0vw 2vw;
+  }
+
+  .box_video-inner {
+    width: 102%;
   }
 }
