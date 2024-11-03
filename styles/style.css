@@ -637,6 +637,12 @@ li {
   }
 }
 @media (max-width: 883px) {
+  .header_img {
+    display: none;
+  }
+  .result_images {
+    display: none;
+  }
   .about_title-item {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -649,7 +655,7 @@ li {
     width: 76vw;
   }
   .about_title {
-    font-size: 9.125vw;
+    font-size: 6.125vw;
   }
   .about_descriptios {
     font-size: 5.125vw;
@@ -678,10 +684,19 @@ li {
   .workaut_title {
     font-size: 4.563vw;
   }
+  .conditions {
+    width: 80vw;
+  }
   .conditions_item {
     width: 80vw;
   }
   .conditions_title {
     font-size: 4.198vw;
+  }
+  .programm_external {
+    flex-direction: column;
+  }
+  .conditions_external {
+    width: 85vw;
   }
 }/*# sourceMappingURL=style.css.map */
