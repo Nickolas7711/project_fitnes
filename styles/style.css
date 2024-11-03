@@ -29,7 +29,8 @@ h2 {
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
-  height: 840px;
+  width: 98vw;
+  height: 50vw;
 }
 
 .header_menu {
@@ -71,11 +72,11 @@ h2 {
 }
 
 .header_from-page {
-  position: relative;
   background-color: rgb(215, 214, 215);
   height: 100%;
   z-index: 1;
-  width: 150vh;
+  width: 78vw;
+  height: 50vw;
 }
 
 .from-page_title {
@@ -110,8 +111,8 @@ h2 {
 }
 
 .btn {
-  width: 300px;
-  height: 90px;
+  width: 15.625vw;
+  height: 4.688vw;
   background-color: red;
   border-radius: 55px;
   font-family: "Great Vibes", cursive;
@@ -173,15 +174,16 @@ h2 {
 }
 
 .header_img {
-  width: 85vh;
-  height: 100vh;
+  width: 49vw;
+  height: 50vw;
 }
 
 .header_images {
   position: absolute;
-  right: 2vh;
+  right: 2vw;
   z-index: 0;
-  transform: translate(1vh, 0vh);
+  width: 64vw;
+  height: 50vw;
 }
 
 .about {
@@ -241,7 +243,7 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 397px;
+  width: 1.302vw;
   height: auto;
 }
 
@@ -259,6 +261,7 @@ h2 {
   font-style: normal;
   font-size: 1.823vw;
   text-align: center;
+  width: 20vw;
 }
 
 .about_description {
@@ -288,6 +291,7 @@ h2 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding: 20px;
 }
 
 .programm_external {
@@ -363,7 +367,7 @@ li {
 }
 
 .programm_images {
-  width: 85vh;
+  width: 85vw;
   -o-object-fit: contain;
      object-fit: contain;
 }
@@ -375,14 +379,14 @@ li {
 }
 
 .external_images {
-  width: 95vh;
+  width: 95vw;
   -o-object-fit: contain;
      object-fit: contain;
 }
 
 .marafon_images {
-  width: 100%;
-  height: 100%;
+  width: 50vw;
+  height: 40vw;
   -o-object-fit: contain;
      object-fit: contain;
 }
@@ -405,7 +409,8 @@ li {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  gap: 30vh;
+  gap: 7vw;
+  width: 100vw;
 }
 
 .result_images {
@@ -413,7 +418,7 @@ li {
 }
 
 .reviews_phone {
-  width: 100%;
+  width: 18vw;
   height: auto;
   -o-object-fit: contain;
      object-fit: contain;
@@ -450,6 +455,7 @@ li {
   flex-direction: column;
   gap: 10px;
   margin-left: 35px;
+  width: 45vw;
 }
 
 .trainer_left-page {
@@ -600,7 +606,7 @@ li {
   color: white;
 }
 
-@media (max-width: 1367px) {
+@media (max-width: 1182px) {
   .header_menu {
     display: grid;
     grid-template-columns: 1fr 1fr; /* Две равные колонки */
