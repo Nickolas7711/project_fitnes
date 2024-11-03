@@ -636,7 +636,7 @@ li {
     justify-items: center;
   }
 }
-@media (max-width: 539px) {
+@media (max-width: 755px) {
   .about_title-item {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
