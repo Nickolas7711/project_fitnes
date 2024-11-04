@@ -242,6 +242,17 @@ h2 {
   margin-bottom: 50px;
 }
 
+.title_video {
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 3.125vw;
+  color: red;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 .about_title-item {
   display: grid;
   grid-template-columns: repeat(3, 1fr); // 3 столбца, равной ширины
@@ -675,13 +686,73 @@ li {
 
 @media (max-width: 883px) {
 
-  .header_img {
-    display: none;
-  }
-
-  // .result_images {
+  // .header_img {
   //   display: none;
   // }
+
+  .header {
+    height: 207vw;
+  }
+
+  .header_menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5px;
+  }
+
+  .header_from-page {
+    width: 1521vw;
+  }
+
+  h2 {
+    font-weight: 600;
+    font-size: 4.502vw;
+  }
+
+  .header_images {
+    top: 143vw;
+    right: 1vw;
+    width: 96vw;
+    height: 72vw;
+  }
+
+  .from-page_item {
+    margin-left: 10vw;
+    margin-top: 2%;
+  }
+
+  .from-page_title {
+    font-size: 14vw;
+  }
+
+  .from-page_intro {
+    font-size: 4.083vw;
+  }
+
+  .from-page_button {
+    margin: 5px;
+    padding: 0px;
+    padding-left: 7px;
+  }
+
+  .from-page_description {
+    font-size: 4.823vw;
+  }
+
+  .btn{
+    width: 46.625vw;
+    height: 14.688vw;
+    font-size: 7.344vw;
+  }
+
+  .bonus_img {
+    width: 122%;
+  }
+
+  .button_intro {
+    font-size: 3.563vw;
+  }
 
   .about_title-item {
     display: grid;
@@ -851,10 +922,52 @@ li {
 
   .box_video {
     flex-direction: column;
-    padding: 2vw 2vw 0vw 2vw;
+    padding: 2vw 2vw 2vw 2vw;
+    gap: 27px;
+    width: 90vw;
+    margin-left: 19px;
   }
 
   .box_video-inner {
     width: 102%;
+  }
+
+  .title_video {
+    font-size: 5.125vw;
+    margin-top: -14px;
+    margin-bottom: 18px;
+  }
+
+  .text_box_video { 
+    width: 70vw;
+  }
+
+  .descriptions_video {
+    font-size: 4.800vw;
+    width: 73vw;
+  }
+
+  .submit_video {
+    font-size: 5.302vw;
+    width: 73vw;
+  }
+
+  .offers_box {
+    gap: 5vw;
+    margin-bottom: 0px;
+  }
+
+  .offers_inner {
+    flex-direction: column;
+    align-items: center;
+    gap: 5vw;
+  }
+
+  .offer {
+    width: 90vw;
+  }
+
+  .btn_tg {
+    font-size: 8.302vw
   }
 }
