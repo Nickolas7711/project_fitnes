@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Pacifico&family=Permanent+Marker&family=Poppins:wght@400;500;600&family=Rubik+Wet+Paint&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Oswald:wght@200..700&family=Pacifico&family=Permanent+Marker&family=Poppins:wght@400;500;600&family=Rubik+Wet+Paint&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -115,9 +115,10 @@ h2 {
   height: 4.688vw;
   background-color: red;
   border-radius: 55px;
-  font-family: "Great Vibes", cursive;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
   font-weight: 400;
-  font-style: italic;
+  font-style: normal;
   font-size: 2.344vw;
   color: white;
 }
@@ -139,10 +140,11 @@ h2 {
   height: 100px;
   background-color: red;
   border-radius: 55px;
-  font-family: "Great Vibes", cursive;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
   font-weight: 500;
-  font-style: italic;
-  font-size: 1.615vw;
+  font-style: normal;
+  font-size: 2.615vw;
   color: white;
 }
 
@@ -530,6 +532,7 @@ li {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin-bottom: 2vw;
 }
 
 .offer {
@@ -610,10 +613,11 @@ li {
   height: 80px;
   background-color: red;
   border-radius: 50px;
-  font-family: "Poppins", serif;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
   font-weight: bold;
   font-style: normal;
-  font-size: 1.302vw;
+  font-size: 1.802vw;
   color: white;
 }
 
