@@ -760,16 +760,22 @@ li {
 
   .about_title-item {
     display: grid;
-    grid-template-columns: repeat(1, 1fr); // 3 столбца, равной ширины
+    grid-template-columns: repeat(2, 1fr); // 3 столбца, равной ширины
     
     gap: 20px; 
     justify-content: space-between;
     justify-items: center;
   }
 
+  .marafun_img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+
   .box_title {
-    font-size: 6.823vw;
-    width: 76vw;
+    font-size: 3.823vw;
+    width: 37vw;
   }
 
   .about_title {
@@ -974,4 +980,11 @@ li {
   .btn_tg {
     font-size: 8.302vw
   }
+
+  .inner_images {
+    width: 36vw;
+    height: 45vw;
+  }
+
+  
 }
