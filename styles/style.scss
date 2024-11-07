@@ -1092,5 +1092,28 @@ li {
     height: 45vw;
   }
 
+  .layer--background {
+    animation: fallLoop 60000ms linear infinite; /* Очень медленное падение */
+  }
+
+  .layer--middleground {
+    animation: fallLoop 45000ms linear infinite;
+  }
+
+  .layer--foreground {
+    animation: fallLoop 30000ms linear infinite;
+  }
+
+  .snowflake--small {
+    width: 10%; /* Уменьшить размер снежинок для мобильных, чтобы больше вместилось */
+  }
+
+  .snowflake--medium {
+    width: 15%;
+  }
+
+  .snowflake--large {
+    width: 25%;
+  }
   
 }
