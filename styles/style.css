@@ -16,102 +16,6 @@ body {
   background-color: rgb(215, 214, 215);
 }
 
-.layers {
-  background-color: rgb(215, 214, 215);
-  height: auto;
-  overflow: hidden;
-  position: absolute;
-  width: 100%;
-}
-
-.layer {
-  height: 100%;
-  position: absolute;
-  transform: translate3d(0, -100%, 0);
-  width: 100%;
-}
-
-.layer--background {
-  animation: fallLoop 30000ms linear infinite; /* Было 10000ms, увеличено до 30000ms */
-  opacity: 0.4;
-}
-.layer--background .snowflake {
-  animation: spin 25000ms linear infinite; /* Можно тоже немного увеличить */
-  height: 20%;
-}
-
-.layer--middleground {
-  animation: fallLoop 22500ms linear infinite; /* Было 7500ms, увеличено до 22500ms */
-  opacity: 0.6;
-}
-.layer--middleground .snowflake {
-  animation: spin 20000ms linear infinite;
-  height: 33.33333%;
-}
-
-.layer--foreground {
-  animation: fallLoop 15000ms linear infinite; /* Было 5000ms, увеличено до 15000ms */
-  opacity: 0.8;
-}
-.layer--foreground .snowflake {
-  animation: spin 15000ms linear infinite;
-  height: 50%;
-}
-
-.snowflakes {
-  align-content: flex-start;
-  display: flex;
-  flex-wrap: wrap;
-  height: 100%;
-  position: relative;
-  width: 100%;
-}
-
-.snowflake {
-  box-sizing: border-box;
-}
-.snowflake svg {
-  height: 100%;
-  width: 100%;
-}
-
-.snowflake--small {
-  width: 10%;
-}
-.snowflake--small svg {
-  height: 70%;
-}
-
-.snowflake--medium {
-  width: 20%;
-}
-.snowflake--medium svg {
-  height: 80%;
-}
-
-.snowflake--large {
-  width: 30%;
-}
-.snowflake--large svg {
-  height: 100%;
-}
-
-@keyframes spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(359deg);
-  }
-}
-@keyframes fallLoop {
-  from {
-    transform: translate3d(0, -100%, 0);
-  }
-  to {
-    transform: translate3d(0, 0%, 0);
-  }
-}
 h2 {
   font-family: "Poppins", serif;
   font-weight: 600;
@@ -975,23 +879,5 @@ li {
   .inner_images {
     width: 36vw;
     height: 45vw;
-  }
-  .layer--background {
-    animation: fallLoop 60000ms linear infinite; /* Очень медленное падение */
-  }
-  .layer--middleground {
-    animation: fallLoop 45000ms linear infinite;
-  }
-  .layer--foreground {
-    animation: fallLoop 30000ms linear infinite;
-  }
-  .snowflake--small {
-    width: 10%; /* Уменьшить размер снежинок для мобильных, чтобы больше вместилось */
-  }
-  .snowflake--medium {
-    width: 15%;
-  }
-  .snowflake--large {
-    width: 25%;
   }
 }/*# sourceMappingURL=style.css.map */
